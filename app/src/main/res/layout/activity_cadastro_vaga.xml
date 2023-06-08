@@ -20,37 +20,37 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ADMIN CADASTRO VAGAS"
-            android:textSize="20sp"
             android:layout_marginTop="20dp"
-            android:textAlignment="center"/>
+            android:text="CADASTRO GRUPO DE EXERCÍCIOS FÍSICOS"
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edEmpresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
             android:layout_marginTop="20dp"
-            android:hint="Empresa" />
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/edCargo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
             android:layout_marginTop="20dp"
-            android:hint="Cargo" />
+            android:ems="10"
+            android:hint="Município"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/edSalario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
             android:layout_marginTop="20dp"
-            android:hint="Salário" />
+            android:ems="10"
+            android:hint="Bairro"
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button"
